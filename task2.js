@@ -18,6 +18,9 @@ function percentage(population, populationTotal) {
   return Number(x.toFixed(2));
 }
 
+const copyCountries = countriesPopulation.slice();
+
+copyCountries.sort((a, b) => a.population - b.population);
 
 
 
