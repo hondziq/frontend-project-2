@@ -13,7 +13,7 @@ const countriesPopulation = [
 
 const populationTotal = 8000000000;
 
-function percentage(population, populationTotal) {
+function percentageOfPopulation(population, populationTotal) {
   const x = (population / populationTotal) * 100;
   return Number(x.toFixed(2));
 }
@@ -21,6 +21,26 @@ function percentage(population, populationTotal) {
 const copyCountries = countriesPopulation.slice();
 
 copyCountries.sort((a, b) => a.population - b.population);
+
+copyCountries.forEach((country, index) => {
+  const id = country.country.slice(0, 3) + index;
+  country.id = id;
+});
+
+copyCountries.forEach((country) => {
+  const percentage = percentageOfPopulation(country.population, populationTotal);
+  country.percentage = percentage;
+});
+
+const filterCountries = copyCountries.filter((country) => 
+  country.country.length > 4 && 
+  country.country.length <= 8 &&
+  country.percentage > 1.5 && 
+  country.percentage < 10
+);
+
+
+
 
 
 
