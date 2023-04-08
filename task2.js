@@ -13,6 +13,8 @@ const countriesPopulation = [
 
 const populationTotal = 8000000000;
 
+// 
+
 function percentageOfPopulation(population, populationTotal) {
   const x = (population / populationTotal) * 100;
   return Number(x.toFixed(2));
