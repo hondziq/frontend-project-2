@@ -13,7 +13,9 @@ Je-li validní a nachází se v poli krajin, vypíše na jakém indexu. Není-li
 
 ### Part2
 
-```addCountry(country, countries);```  Funkce addCountry kontroluje, zda je zadaná krajina validní (typ string, víc než 0 znaků).
+```addCountry(country, countries);```
+  
+Funkce addCountry kontroluje, zda je zadaná krajina validní (typ string, víc než 0 znaků).
 Jestli se zadaná krajina v seznamu nachází, vypíše na jakém je indexu. Pokud se v seznamu nenachází, funkce přidá krajinu na konec seznamu, vypíše index a celkový počet krajin.
 
 ### Part3
