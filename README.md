@@ -7,7 +7,8 @@
 ## task1.js
 ### Part1
 
-```checkCountry(country, countries);```  Funkce checkCountry kontrololuje, zda je zadaná krajina validní (typ string, víc než 0 znaků).
+```checkCountry(country, countries);```
+Funkce checkCountry kontrololuje, zda je zadaná krajina validní (typ string, víc než 0 znaků).  
 Je-li validní a nachází se v poli krajin, vypíše na jakém indexu. Není-li validní, vypíše do konzole, že se zadaná krajina v seznamu nenachází.
 
 ### Part2
