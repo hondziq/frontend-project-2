@@ -8,7 +8,9 @@
 ### Part1
 
 ```checkCountry(country, countries);```
+  
 Funkce checkCountry kontrololuje, zda je zadaná krajina validní (typ string, víc než 0 znaků).  
+  
 Je-li validní a nachází se v poli krajin, vypíše na jakém indexu. Není-li validní, vypíše do konzole, že se zadaná krajina v seznamu nenachází.
 
 ### Part2
@@ -16,6 +18,7 @@ Je-li validní a nachází se v poli krajin, vypíše na jakém indexu. Není-li
 ```addCountry(country, countries);```
   
 Funkce addCountry kontroluje, zda je zadaná krajina validní (typ string, víc než 0 znaků).
+  
 Jestli se zadaná krajina v seznamu nachází, vypíše na jakém je indexu. Pokud se v seznamu nenachází, funkce přidá krajinu na konec seznamu, vypíše index a celkový počet krajin.
 
 ### Part3
